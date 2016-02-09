@@ -1,0 +1,19 @@
+{
+  "name": "geggleto/token-generator",
+  "description": "Generate secure tokens",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Glenn Eggleton",
+      "email": "geggleto@gmail.com"
+    }
+  ],
+  "require": {
+    "paragonie/random_compat": "1.1.6"
+  },
+  "autoload" : {
+    "psr-4" : {
+      "Geggleto\\Security\\" : "src"
+    }
+  }
+}
